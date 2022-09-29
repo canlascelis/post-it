@@ -1,0 +1,26 @@
+nav {
+    justify-content: space-between;
+    //background-color: #0DF9C0 !important;
+
+    .dark-mode-btn {
+        align-self: baseline!important;
+        color: red!important;
+    }
+
+    .logo {
+        width: 120px;
+    }
+}
+
+#navbarContents {
+    justify-content: space-between;
+}
+
+input {
+    margin-right: 20px;
+    border-radius: 8px !important;
+}
+
+a {
+    border-radius: 8px !important;
+}
