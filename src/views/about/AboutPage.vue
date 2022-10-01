@@ -6,7 +6,13 @@ h1 ABOUT PAGE
 import { defineComponent } from 'vue'
 
 export default defineComponent({
-    name: "AboutPage"
+    name: "AboutPage",
+    computed: {
+        username() {
+            console.log(this.$route.params.username);
+            return this.$route.params.username
+        }
+    }
 })
 </script>
 
