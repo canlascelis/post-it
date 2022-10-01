@@ -17,6 +17,12 @@ export default defineComponent({
             age: 25 as number | string
         }
     },
+    computer: {
+        username() {
+            console.log(this.$route.params.username);
+            return this.$route.params.username
+        }
+    },
     methods: {
         changeAge(age: number | string){
             this.age = age;
